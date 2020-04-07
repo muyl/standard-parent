@@ -18,6 +18,7 @@
         <module>standard-cloud-dependencies</module>
         <module>uid-provider</module>
         <module>uid-generator</module>
+        <module>uid-api</module>
     </modules>
 
     <properties>
