@@ -1,0 +1,23 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+  application:
+    name: uid-consumer
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+dubbo:
+  application:
+    name: uid-consumer
+  registry:
+    address: nacos://127.0.0.1:8848
+  scan:
+    basePackages: com.github.web
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+server:
+  port: 8087
