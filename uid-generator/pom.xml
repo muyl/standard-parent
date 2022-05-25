@@ -12,7 +12,7 @@
     <artifactId>uid-generator</artifactId>
     <!-- Properties -->
     <properties>
-        <spring.version>5.0.11.RELEASE</spring.version>
+        <spring.version>5.2.22.RELEASE</spring.version>
         <slf4j-version>1.7.26</slf4j-version>
     </properties>
 
